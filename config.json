@@ -1,0 +1,5 @@
+{
+"url-backend": "127.0.0.1",
+"port": 7777,
+"url-backend-asset": "https://assetallocationbackend.herokuapp.com/"
+}

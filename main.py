@@ -39,7 +39,7 @@ def create_token():
     else:
         return jsonify({"msg": "Bad username or password"}), 401
 
-
+"""
 @app.before_request
 def before_request_callback():
     excludeRoutes = ["/login"]
@@ -48,6 +48,7 @@ def before_request_callback():
     elif verify_jwt_in_request():
         usuario = get_jwt_identity()
         #print(usuario)
+"""
 
 @app.route("/modelo", methods=['POST'])
 def callModel():
